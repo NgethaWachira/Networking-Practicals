@@ -1,0 +1,26 @@
+router rip
+network 10.0.0.0
+no auto-summary
+version 2
+
+
+router ospf 1
+network 10.0.0.0 0.255.255.255 area 0
+
+
+router eigrp 100
+no auto-summary
+network 10.0.0.0 0.255.255.255
+
+
+router eigrp 100
+network 192.168.0.0 0.255.255.255
+
+
+router eigrp 100
+passive-interface loopback0
+passive-interface f0/1
+
+
+router ospf 1
+network 172.16.0.0 0.0.255.255 area 0
