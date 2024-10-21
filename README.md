@@ -1,1 +1,1 @@
-Practicals were done with packet tracer. You need Cisco Packet Tracer installed to view the work.
+Practical experience equipped me with skills in IP addressing, networking, routing protocols (OSPF, EIGRP), networking principles (firewalls, encryption), and network design and topology.
